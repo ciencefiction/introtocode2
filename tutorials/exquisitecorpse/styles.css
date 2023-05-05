@@ -1,0 +1,12 @@
+
+/* header styling */
+h1 {
+    background-color: blueviolet;
+    color: black;
+}
+
+/*  image height */ 
+img {
+    height: 500px;
+    width: 500px
+}
