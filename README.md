@@ -1,2 +1,2 @@
-# introtocode2
- intro to code copy
+# introtocode
+ reworking file structure
