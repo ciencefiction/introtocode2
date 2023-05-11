@@ -1,1 +1,17 @@
-/* img header styling */
+/* header styling */
+
+h1 {background-color: tan;
+    color: white;
+}
+h2 {
+   background-color: tan; 
+   color: brown; 
+}
+
+/* background */
+body {background-color: beige}
+
+/* q&a section */
+b {background-color: tan;
+
+}
