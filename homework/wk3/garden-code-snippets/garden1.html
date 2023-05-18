@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Example 1 </title>
+    <style>
+
+/* DISCLAIMER        
+Dont worry too much about the types of display here. We are going to go over CSS Layout in our next meeting. For now this style tag here is for you to work on the ids you have and change them at your will. I've separate a couple of files to give you a head-start but please dont be limited to those. Create your own colorful garden the best way you can.  */
+
+        .garden {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+        }
+
+        .garden div {
+            height: 450px;
+            width: 450px;
+            padding: 1em;
+            border: 1px solid black;
+        }
+
+
+        /* You can start styling your "plots" here through using selectors based on the IDs below. */
+
+        #four{
+            background-color: orange;
+        }
+        #five{
+            background-color:black;
+        }
+        #six {
+            background-color: blue;
+        }
+        #callthisone{
+            background-color: white;color:cyan
+        }
+
+    </style>
+</head>
+
+<body>
+    <section class="garden">
+
+        
+        <div id="one">
+            <p>garden</p>
+            <img src="images/1.gif" width="50%">
+            <p>Welcome to my little playground.</p>
+        </div>
+        <div id="two"><h2>Box II</h2>
+        everything has to go inside the div to remain in the box. ok. and each div is set up to render as a box.</div>
+        <p>Maybe we shouldn't think outside the box on this one.</p>
+        <div id="three"><h2>Box III</h2>
+        <p>That's better.</p></div>
+        <div id="four">Box 4</div>
+        <div id="five"><h2 style="color:white">Box 5</h2>
+            <p>Most of this text is unreadable. It's a secret. </p><p id="callthisone">But this set of text should be fine. (remember to put it inside the div or it'll break the box). </p></div>
+        
+        <div id="six">Box 6</div>
+        <div id="seven"><h2 style="color:brown;background-color:beige"> Box 7</h2>
+            <p>What's more is that I could try and do an inline CSS. It's janky but it works.</p>
+
+
+        </div>
+        <div id="eight">Box 8
+            <p>What a concept!</p>
+        </div>
+    </section>
+</body>
+
+</html>
